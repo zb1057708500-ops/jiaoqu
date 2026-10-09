@@ -1,23 +1,75 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>骚区
-		</title>
-	</head>
-	<style>
-		.div{
-			display: inline-flex;
-		}
-	</style>
-	<body>
-		<div class="div">
-			<img src="img/22085D64-E708-4A94-A9D7-506C54C65E34.png" style="height:300px; width: 480px;" alt="jiaoqu太帅了，你看不见">
-			<img src="img/642C6B09-63A8-41ED-81B7-93A7970EAC5A.png" style="height:300px; width: 480px;" alt="jiaoqu太帅了，你看不见" >
-			<img src="img/E6A896EA-F97D-42B6-948B-D883BFB89B43..png" style="height:300px; width: 480px;" alt="jiaoqu太帅了，你看不见">
-		</div>
-		<h5 style="text-align: center;">我是交区</h5>
-		<h1 style="text-align: center;">我是骚比</h1>
-		<div>dream 最豪之人</div>
-	</body>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>骚区</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #222222;
+            color: #fff;
+            font-family: "Microsoft Yahei", sans-serif;
+            padding: 30px 15px;
+        }
+        .page-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 32px;
+            color: #ffdddd;
+        }
+        .img-wrap {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            max-width: 1800px;
+            margin: 0 auto 40px;
+        }
+        .img-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            display: block;
+        }
+        .desc-box {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align:center;
+            font-size: 22px;
+            color: #eeeeee;
+            line-height:1.8;
+        }
+        /* 手机端自动变成竖排 */
+        @media (max-width: 900px) {
+            .img-wrap {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="page-title">骚区</h1>
+    <div class="img-wrap">
+        <div class="img-item">
+            <!-- 第一张 比耶wink -->
+            <img src="img1.jpg" alt="伪人1">
+        </div>
+        <div class="img-item">
+            <!-- 第二张 蹲下吐舌头 -->
+            <img src="img2.jpg" alt="伪人2">
+        </div>
+        <div class="img-item">
+            <!-- 第三张 白丝脚 -->
+            <img src="img3.jpg" alt="伪人3">
+        </div>
+    </div>
+    <div class="desc-box">
+        我是交区<br>
+        抽象伪人，教室背景，三张不同姿态的形象，充满怪诞搞笑的抽象氛围感。
+    </div>
+</body>
 </html>
